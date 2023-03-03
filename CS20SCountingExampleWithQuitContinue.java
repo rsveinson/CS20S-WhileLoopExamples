@@ -79,7 +79,7 @@ public class CS20SCountingExampleWithQuitContinue {
         strin = scanner.next();
         //System.out.println(qc);
         qc = strin.charAt(0);
-        Character.toUpperCase(qc);
+        qc = Character.toUpperCase(qc);
         System.out.println(qc);
 
         while(qc == 'Y'){
@@ -115,7 +115,7 @@ public class CS20SCountingExampleWithQuitContinue {
             strin = scanner.next();
             //System.out.println(qc);
             qc = strin.charAt(0);
-            Character.toUpperCase(qc);
+            qc = Character.toUpperCase(qc);
             //System.out.println(qc);
         }// end qc loop
 
